@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="" />
+    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="where is the problem?">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="num389.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/num301_400/num381_390/num389.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            <state relative-caret-position="293">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -50,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/num201_300/num231_240/num240.py" />
         <option value="$PROJECT_DIR$/num201_300/num221_230/num221.py" />
         <option value="$PROJECT_DIR$/num201_300/num221_230/num223.py" />
         <option value="$PROJECT_DIR$/num201_300/num221_230/驽马27.py" />
@@ -100,6 +101,7 @@
         <option value="$PROJECT_DIR$/num001_100/num081_090/num087.py" />
         <option value="$PROJECT_DIR$/num201_300/num251_260/test.py" />
         <option value="$PROJECT_DIR$/num301_400/num321_330/num326.py" />
+        <option value="$PROJECT_DIR$/hah/dsaf.py" />
         <option value="$PROJECT_DIR$/num301_400/num381_390/num389.py" />
       </list>
     </option>
@@ -335,7 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539612402250</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add a new to num389">
+      <created>1539612784235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539612784235</updated>
+    </task>
+    <task id="LOCAL-00003" summary="where is the problem?">
+      <created>1539613227268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539613227268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -351,11 +367,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.23288691" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.23288691" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2805873" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.4087102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32611465" />
@@ -375,7 +391,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add a new to num389" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a new to num389" />
+    <MESSAGE value="where is the problem?" />
+    <option name="LAST_COMMIT_MESSAGE" value="where is the problem?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,7 +656,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num228.py" />
     <entry file="file://$PROJECT_DIR$/num201_300/num231_240/num232.py" />
     <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num225.py" />
     <entry file="file://$PROJECT_DIR$/num101_200/num171_180/test.py" />
@@ -719,10 +735,17 @@
     <entry file="file://$PROJECT_DIR$/algro_introduce/chap2/exercise2_3_4.py" />
     <entry file="file://$PROJECT_DIR$/unsolved" />
     <entry file="file://$PROJECT_DIR$/num301_400/num321_330/num326.py" />
+    <entry file="file://$PROJECT_DIR$/hah/dsaf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/num301_400/num381_390/num389.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        <state relative-caret-position="293">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
