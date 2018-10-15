@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,29 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num201_300/num251_260/test.py">
+      <file leaf-file-name="num389.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/num301_400/num381_390/num389.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="num087.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num087.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="89" column="20" selection-start-line="55" selection-end-line="89" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="num326.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/num301_400/num321_330/num326.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="331">
+              <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -116,11 +96,11 @@
         <option value="$PROJECT_DIR$/num201_300/num201_210/num208.py" />
         <option value="$PROJECT_DIR$/num001_100/num071_080/num072.py" />
         <option value="$PROJECT_DIR$/num001_100/num061_070/num068.py" />
-        <option value="$PROJECT_DIR$/num301_400/num381_390/num389.py" />
         <option value="$PROJECT_DIR$/num201_300/num261_270/num268.py" />
         <option value="$PROJECT_DIR$/num001_100/num081_090/num087.py" />
         <option value="$PROJECT_DIR$/num201_300/num251_260/test.py" />
         <option value="$PROJECT_DIR$/num301_400/num321_330/num326.py" />
+        <option value="$PROJECT_DIR$/num301_400/num381_390/num389.py" />
       </list>
     </option>
   </component>
@@ -137,13 +117,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="num301_400" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="num301_400" type="462c0819:PsiDirectoryNode" />
+              <item name="num381_390" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -190,6 +180,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,6 +328,14 @@
       <option name="presentableId" value="Default" />
       <updated>1532844087401</updated>
     </task>
+    <task id="LOCAL-00001" summary="add a new to num389">
+      <created>1539612402250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539612402250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -350,17 +349,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.23288691" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2805873" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.4087102" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2805873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32611465" />
-      <window_info id="Favorites" order="2" sideWeight="0.50163937" side_tool="true" weight="0.31240064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32952693" />
+      <window_info id="Favorites" order="2" sideWeight="0.50163937" side_tool="true" weight="0.31240064" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -372,6 +372,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add a new to num389" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a new to num389" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,83 +639,17 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num228.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num231_240/num232.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="76" lean-forward="true" selection-start-line="29" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num225.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num101_200/num171_180/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num227.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num224.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num231_240/num233.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num241_250/num242.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num211_220/num215.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num201_210/num201.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num201_210/num209.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="92" column="44" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num228.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num231_240/num232.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num225.py" />
+    <entry file="file://$PROJECT_DIR$/num101_200/num171_180/test.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num227.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num221_230/num224.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num231_240/num233.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num241_250/num242.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num211_220/num215.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num201_210/num201.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num201_210/num209.py" />
     <entry file="file://E:/python/Lib/abc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
@@ -726,82 +664,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num344.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num361_370/num367.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="21" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num251_260/num257.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num345.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num344.py" />
+    <entry file="file://$PROJECT_DIR$/num301_400/num361_370/num367.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num251_260/num257.py" />
+    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num345.py" />
     <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num099.py" />
-    <entry file="file://$PROJECT_DIR$/num101_200/num111_120/num120.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num350.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num349.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num371_380/num371.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num101_200/num141_150/num150.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="203" column="39933" lean-forward="true" selection-start-line="203" selection-start-column="39933" selection-end-line="203" selection-end-column="39933" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num101_200/num141_150/num143.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num101_200/num161_170/num166.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/num101_200/num111_120/num120.py" />
+    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num350.py" />
+    <entry file="file://$PROJECT_DIR$/num301_400/num341_350/num349.py" />
+    <entry file="file://$PROJECT_DIR$/num301_400/num371_380/num371.py" />
+    <entry file="file://$PROJECT_DIR$/num101_200/num141_150/num150.py" />
+    <entry file="file://$PROJECT_DIR$/num101_200/num141_150/num143.py" />
+    <entry file="file://$PROJECT_DIR$/num101_200/num161_170/num166.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-695925223/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -809,72 +683,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/print_linked.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num101_200/num121_130/num128.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num001_100/num091_100/num099.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num261_270/num263.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num261_270/num264.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num101_200/num191_200/num200.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num291_300/num292.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num281_290/num283.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num211_220/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num089.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/common/print_linked.py" />
+    <entry file="file://$PROJECT_DIR$/num101_200/num121_130/num128.py" />
+    <entry file="file://$PROJECT_DIR$/num001_100/num091_100/num099.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num261_270/num263.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num261_270/num264.py" />
+    <entry file="file://$PROJECT_DIR$/num101_200/num191_200/num200.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num291_300/num292.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num281_290/num283.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num211_220/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num089.py" />
     <entry file="file://E:/python/Lib/heapq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -882,13 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num001_100/num071_080/num072.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="113" column="44" selection-start-line="113" selection-start-column="44" selection-end-line="113" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/num001_100/num071_080/num072.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-695925223/math.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -896,83 +708,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num001_100/num061_070/num068.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num201_210/num208.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1739">
-          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num211_220/num216.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num301_310/num304.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/num001_100/num061_070/num068.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num201_210/num208.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num211_220/num216.py" />
+    <entry file="file://$PROJECT_DIR$/num301_400/num301_310/num304.py" />
+    <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num084.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num261_270/num268.py" />
+    <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num087.py" />
+    <entry file="file://$PROJECT_DIR$/num201_300/num251_260/test.py" />
+    <entry file="file://$PROJECT_DIR$/algro_introduce/chap2/exercise2_3_4.py" />
+    <entry file="file://$PROJECT_DIR$/unsolved" />
+    <entry file="file://$PROJECT_DIR$/num301_400/num321_330/num326.py" />
     <entry file="file://$PROJECT_DIR$/num301_400/num381_390/num389.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="53" column="26" lean-forward="true" selection-start-line="27" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num084.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num261_270/num268.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="39" column="37" selection-start-line="32" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num001_100/num081_090/num087.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="89" column="20" selection-start-line="55" selection-end-line="89" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num251_260/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algro_introduce/chap2/exercise2_3_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unsolved">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/num301_400/num321_330/num326.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="331">
+          <caret line="50" column="32" lean-forward="true" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
         </state>
       </provider>
     </entry>
