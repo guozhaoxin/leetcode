@@ -27,6 +27,6 @@ class Solution:
         else:
             return min(strs,key = len)
 
-
-a = {1:1,2:2}
-print(list(a.keys()))
+a = [1,2,3]
+a.sort(reverse=True)
+print(a)
