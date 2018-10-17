@@ -28,4 +28,8 @@ class Solution:
             return min(strs,key = len)
 
 
-print(-1 % 5)
+testSet = set()
+testSet.add('abc')
+testSet.add('def')
+testSet.add('abcd')
+print(testSet)

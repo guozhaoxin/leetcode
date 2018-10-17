@@ -27,9 +27,9 @@ class Solution:
         results = [1,2,3]
         if n <= 3:
             return results[:n][-1]
-        l1 = [0,[5]]
-        l2 = [1,[2,3,5]]
-        l3 = [2,[2,3,5]]
+        l1 = [0,[4,5]]
+        l2 = [1,[2,3,4,5]]
+        l3 = [2,[2,3,4,5]]
 
         while len(results) < n:
             first = results[l1[0]] * l1[1][0]
@@ -40,24 +40,46 @@ class Solution:
             if first == haha:
                 del l1[1][0]
                 if len(l1[1]) == 0:
-                    l1 = [max(l1[0],l2[0],l3[0]) + 1,[2,3,5]]
+                    l1 = [max(l1[0],l2[0],l3[0]) + 1,[2,3,4,5]]
                     while results[l1[0]] * l1[1][0] <= haha:
                         del l1[1][0]
             if second == haha:
                 del l2[1][0]
                 if len(l2[1]) == 0:
-                    l2 = [max(l1[0],l2[0],l3[0]) + 1,[2,3,5]]
+                    l2 = [max(l1[0],l2[0],l3[0]) + 1,[2,3,4,5]]
                     while results[l2[0]] * l2[1][0] <= haha:
                         del l2[1][0]
 
             if third == haha:
                 del l3[1][0]
                 if len(l3[1]) == 0:
-                    l3 = [max(l1[0],l2[0],l3[0]) + 1,[2,3,5]]
+                    l3 = [max(l1[0],l2[0],l3[0]) + 1,[2,3,4,5]]
                     while results[l3[0]] * l3[1][0] <= haha:
                         del l3[1][0]
+        print(results)
+        return results[-1]
+
+class Solution:
+    def nthUglyNumber(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n <= 0:
+            return 0
+        a = b = c = 0
+        results = [1]
+        while len(results) < n:
+            minVal = min(results[a] * 2,results[b] * 3,results[c] * 5)
+            results.append(minVal)
+            if minVal == results[a] * 2:
+                a += 1
+            if minVal == results[b] * 3:
+                b += 1
+            if minVal == results[c] * 5:
+                c += 1
 
         return results[-1]
 
 if __name__ == '__main__':
-    print(Solution().nthUglyNumber(12))
+    print(Solution().nthUglyNumber(25))
