@@ -59,10 +59,41 @@ class Solution:
         num2strlist.sort(reverse=True,key=functools.cmp_to_key(compare))
         return ''.join(num2strlist) if num2strlist[0] != '0' else '0'
 
+class Solution:
+    # @param {integer[]} nums
+    # @return {string}
+    def largestNumber(self, nums):
+        from functools import cmp_to_key
+        key = cmp_to_key(lambda x,y: int(y+x)-int(x+y))
+        res = ''.join(sorted(map(str, nums), key=key)).lstrip('0')
+        return res or '0'
+
+class Solution:
+    def largestNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: str
+        """
+        res = ''
+        nums = [str(nums[i]) for i in range(len(nums))]
+        longest = max([len(x) for x in nums])
+        b = [a * longest for a in nums]
+        b.sort(reverse=True)
+        print(b)
+        nums.sort(key=lambda x: x*(longest), reverse=True)
+        print(nums)
+
+        if nums and nums[0] == '0':
+            return '0'
+
+        for n in nums:
+            res = res + n
+        return res
+
 if __name__ == '__main__':
-    input = [10,2]
-    print(Solution().largestNumber(input))
+    # input = [10,2]
+    # print(Solution().largestNumber(input))
     print(Solution().largestNumber([3,30,34,5,9]))
-    print(Solution().largestNumber([20,1]))
-    print(Solution().largestNumber([10,1]))
-    print(Solution().largestNumber([1,1,1]))
+    # print(Solution().largestNumber([20,1]))
+    # print(Solution().largestNumber([10,1]))
+    # print(Solution().largestNumber([1,1,1]))

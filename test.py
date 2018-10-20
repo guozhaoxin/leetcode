@@ -27,9 +27,7 @@ class Solution:
         else:
             return min(strs,key = len)
 
-
-testSet = set()
-testSet.add('abc')
-testSet.add('def')
-testSet.add('abcd')
-print(testSet)
+a = '0120'
+a.lstrip('0')
+print(a.lstrip('0'))
+print(a.rstrip('0'))
