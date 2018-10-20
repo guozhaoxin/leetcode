@@ -27,7 +27,11 @@ class Solution:
         else:
             return min(strs,key = len)
 
-a = '0120'
-a.lstrip('0')
-print(a.lstrip('0'))
-print(a.rstrip('0'))
+results ={}
+for i in range(60):
+    binnum = bin(i)[2:]
+    count1 = binnum.count('1')
+    if count1 not in results:
+        results[count1] = []
+    results[count1].append(str(int(binnum,base=2)))
+print(results)
