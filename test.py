@@ -27,11 +27,5 @@ class Solution:
         else:
             return min(strs,key = len)
 
-results ={}
-for i in range(60):
-    binnum = bin(i)[2:]
-    count1 = binnum.count('1')
-    if count1 not in results:
-        results[count1] = []
-    results[count1].append(str(int(binnum,base=2)))
-print(results)
+import requests
+response = requests.post('http://172.20.10.2:8181/restconf/config')
