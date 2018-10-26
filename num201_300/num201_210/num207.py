@@ -44,63 +44,46 @@ class Solution:
             cour1 = pair[1]
             graph[cour0][cour1] = 1
 
-        visited = [ False for i in range(numCourses)]
-        for index in range(numCourses):
-            if visited[index] == True:
+        visitedNodes = [False] * numCourses
+        nodeIndex = 0
+        while nodeIndex < numCourses:
+            if visitedNodes[nodeIndex]:
+                nodeIndex += 1
                 continue
-            for col in range(numCourses):
-                if graph[index][col] == 1:
-                    break
-            else:
-                visited[index] = True
-                continue
-            visSet = set()
-            stack = []
-            stack.append(index)
-            visSet.add(index)
-            visited[index] = True
-            nextIndex = index
-            while stack:
-                nextIndex = self.__helper(graph,nextIndex,visSet,numCourses)
-                if nextIndex == -1:
-                    return False
-                if nextIndex == numCourses:
-                    # stack.pop()
-                    visSet.remove(stack.pop())
-                    continue
-                visited[nextIndex] = True
-                visSet.add(nextIndex)
-                stack.append(nextIndex)
-
+            nodeStack = []
+            nodeSet = set()
+            nodeSet.add(nodeIndex)
+            nodeStack.append(nodeIndex)
+            visitedNodes[nodeIndex] = True
+            while nodeStack:
+                topNode = nodeStack[-1]
+                curNode = 0
+                while curNode < numCourses:
+                    if graph[topNode][curNode] and curNode in nodeSet:
+                        return False
+                    if graph[topNode][curNode] == 0: #压根没有连接
+                        curNode += 1
+                        continue
+                    if visitedNodes[curNode] and graph[topNode][curNode] == 1 and curNode in nodeSet:#有连接且访问过且是这条链路上访问过的额
+                        return False
+                    if graph[topNode][curNode] == 1 and curNode not in nodeSet: #有连接且不在这条链路上
+                        if not visitedNodes[curNode]:
+                            nodeStack.append(curNode)
+                            nodeSet.add(curNode)
+                            visitedNodes[curNode] = True
+                            break
+                        else:
+                            curNode += 1
+                            continue
+                    curNode += 1
+                if curNode == numCourses:
+                    nodeSet.remove(nodeStack.pop())
+            nodeIndex += 1
         return True
-
-    def __helper(self,graph,row,visSet,numCourses):
-        col = 0
-        while col < numCourses:
-            if graph[row][col] == 1 and col not in visSet:
-                visSet.add(col)
-                return col
-            elif graph[row][col] == 1 and col in visSet:
-                return -1
-            col += 1
-        return col
-
-
-# class Solution:
-#     def canFinish(self, numCourses, prerequisites):
-#         """
-#         :type numCourses: int
-#         :type prerequisites: List[List[int]]
-#         :rtype: bool
-#         """
-#         graph = [[0] * numCourses for i in range(numCourses)]
-#         for pair in prerequisites:
-#             cour0 = pair[0]
-#             cour1 = pair[1]
-#             graph[cour0][cour1] = 1
-
 
 
 if __name__ == '__main__':
     print(Solution().canFinish(2,[[1,0]]))
-    # print(Solution().canFinish(2,[[1,0],[0,1]]))
+    print(Solution().canFinish(2,[[0,1]]))
+    print(Solution().canFinish(2,[[1,0],[0,1]]))
+    print(Solution().canFinish(4,[[0,1],[3,1],[1,3],[3,2]]))
