@@ -27,5 +27,4 @@ class Solution:
         else:
             return min(strs,key = len)
 
-import requests
-response = requests.post('http://172.20.10.2:8181/restconf/config')
+print(chr(711100))
