@@ -27,4 +27,13 @@ class Solution:
         else:
             return min(strs,key = len)
 
-print(chr(711100))
+def g():
+    for i in range(3):
+        yield i
+
+gg = g()
+while True:
+    try:
+        print(next(gg))
+    except StopIteration as e:
+        break
