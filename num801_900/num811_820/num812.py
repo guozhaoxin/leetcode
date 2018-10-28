@@ -22,46 +22,6 @@ No points will be duplicated.
 Answers within 10^-6 of the true value will be accepted as correct.
 '''
 
-
-class Solution:
-    def largestTriangleArea(self, points):
-        """
-        :type points: List[List[int]]
-        :rtype: float
-        """
-        if len(points) < 3:
-            return 0
-        if len(points) == 3:
-            return self.triangleArea(points[0],points[1],points[2])
-        leftMost = rightMost = bottomMost = upMost = 0
-        index = 1
-        while index < len(points):
-            if points[index][0] < points[leftMost][0]:
-                leftMost = index
-            if points[index][0] > points[rightMost][0]:
-                rightMost = index
-            if points[index][1] < points[bottomMost][1]:
-                bottomMost = index
-            if points[index][1] > points[upMost][1]:
-                upMost = index
-            index += 1
-
-        return max(
-            self.triangleArea(points[leftMost],points[rightMost],points[upMost]),
-            self.triangleArea(points[leftMost],points[rightMost],points[bottomMost]),
-            self.triangleArea(points[leftMost],points[upMost],points[bottomMost]),
-            self.triangleArea(points[rightMost],points[upMost],points[bottomMost]),
-                   )
-
-
-    def triangleArea(self,pointA,pointB,pointC):
-        ABsize = ((pointA[0] - pointB[0])**2 + (pointA[1] - pointB[1])**2)**.5
-        ACsize = ((pointA[0] - pointC[0])**2 + (pointA[1] - pointC[1])**2)**.5
-        BCsize = ((pointB[0] - pointC[0])**2 + (pointB[1] - pointC[1])**2)**.5
-        p = (ABsize + ACsize + BCsize) / 2
-        return (p * (p - ABsize) * (p - ACsize) * (p - BCsize))**.5
-
-
 class Solution:
     def largestTriangleArea(self, points):
         """
