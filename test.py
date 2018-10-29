@@ -26,14 +26,3 @@ class Solution:
                 return strs[0][:i]
         else:
             return min(strs,key = len)
-
-def g():
-    for i in range(3):
-        yield i
-
-gg = g()
-while True:
-    try:
-        print(next(gg))
-    except StopIteration as e:
-        break
