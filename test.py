@@ -26,3 +26,14 @@ class Solution:
                 return strs[0][:i]
         else:
             return min(strs,key = len)
+
+# import re
+# words = 'study in 山海大学'
+# regex_str = ".*?([\u4E00-\u9FA5]+大学)"
+# match_obj = re.match(regex_str, words)
+# if match_obj:
+#     print(match_obj.group(1))
+
+import re
+text = "Jonny is a good boy, he is    cool, clever, and so on..."
+print (re.findall('\w+',text))
