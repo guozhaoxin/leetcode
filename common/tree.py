@@ -1,13 +1,21 @@
 #encoding:utf8
 __author__ = 'gold'
 
+
 class TreeNode:
     def __init__(self,value):
         self.val = value
         self.left = None
         self.right = None
 
-def preOrder(root):
+
+def preOrder(root,printed = False):
+    '''
+    preorder the binary tree
+    :param root: TreeNode，the root node of the binary tree
+    :param printed:bool,print the order result or not
+    :return: [],contain the order element value
+    '''
     results = []
     def dfs(node):
         if not node:
@@ -17,9 +25,18 @@ def preOrder(root):
         dfs(node.right)
 
     dfs(root)
-    print(results)
+    if printed:
+        print(results)
+    return results
 
-def midOrder(root):
+
+def midOrder(root,printed = False):
+    '''
+    midorder the binary tree
+    :param root: TreeNode，the root node of the binary tree
+    :param printed:bool,print the order result or not
+    :return: [],contain the order element value
+    '''
     results = []
     def dfs(node):
         if not node:
@@ -28,9 +45,18 @@ def midOrder(root):
         results.append(node.val)
         dfs(node.right)
     dfs(root)
-    print(results)
+    if printed:
+        print(results)
+    return results
 
-def postOrder(root):
+
+def postOrder(root,printed = False):
+    '''
+    postorder the binary tree
+    :param root: TreeNode，the root node of the binary tree
+    :param printed:bool,print the order result or not
+    :return: [],contain the order element value
+    '''
     results = []
     def dfs(node):
         if not node:
@@ -39,31 +65,45 @@ def postOrder(root):
         dfs(node.right)
         results.append(node.val)
     dfs(root)
-    print(results)
+    if printed:
+        print(results)
+    return results
 
 def arrayToTree(array):
     '''
-    将一串array转化成二叉树
+    translate an array to a binary tree
     :param array: []
-    :return: 根节点，TreeNode类
+    :return: TreeNode,a new tree root node
     '''
-    import math
-    nodes = []
-    index = 0
-    while index < len(array):
-        print(index)
-        if array[index]:
-            node = TreeNode(array[index])
-            pIndex = math.floor((index - 1) // 2)
-            if pIndex >= 0 and pIndex < index:
-                if index % 2 == 0:
-                    nodes[pIndex].right = node
-                else:
+
+    if not array or array[0] is None:
+        return None
+
+    nodes = [TreeNode(array[0])]
+    index = 1
+    try:
+        while index < len(array):
+            if array[index] is not None:
+                node = TreeNode(array[index])
+                nodes.append(node)
+                pIndex = (index - 1) // 2
+                if index % 2:
                     nodes[pIndex].left = node
-        index += 1
+                else:
+                    nodes[pIndex].right = node
+            else:
+                nodes.append(None)
+            index += 1
+    except AttributeError as e:
+        print('the array is wrong!')
+        return None
     return nodes[0]
+
 
 if __name__ == '__main__':
     array = [10,5,-3,3,2,None,11,3,-2,None,1]
     root = arrayToTree(array)
-    midOrder(root)
+    print(root.val)
+    midOrder(root,True)
+    postOrder(root,True)
+    preOrder(root,True)
