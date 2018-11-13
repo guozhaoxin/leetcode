@@ -7,9 +7,25 @@ __author__ = 'gold'
 # a = reduce(lambda x, y: x * y, range(9, -1, -1), 9)
 # print(a)
 
-try:
-    a = None
-    a. name  = 'abc'
-    print(dir(None))
-except NullPointException as e:
-    print(e)
+class Solution:
+    def generateParenthesis(self, n):
+        """
+        :type n: int
+        :rtype: List[str]
+        """
+        ans = []
+
+        def backtrack(s='',left=0,right=0):
+            if len(s) == 2 * n:
+                ans.append(s)
+            if left < n:
+                backtrack(s + '(',left + 1,right,)
+            if right < left:
+                backtrack(s + ')',left,right + 1)
+
+        backtrack()
+
+        return ans
+
+if __name__ == '__main__':
+    print(Solution().generateParenthesis(1))
