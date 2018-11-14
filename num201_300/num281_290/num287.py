@@ -30,3 +30,21 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
+        if len(nums) <= 1:
+            return -1
+
+        slow = nums[0]
+        fast = nums[nums[0]]
+        while fast != slow:
+            fast = nums[nums[fast]]
+            slow = nums[slow]
+
+        fast = 0
+        while fast != slow:
+            fast = nums[fast]
+            slow = nums[slow]
+        return fast
+
+if __name__ == '__main__':
+    print(Solution().findDuplicate([1,3,4,2,2]))
+    print(Solution().findDuplicate([3,1,3,4,2] ))
