@@ -27,3 +27,5 @@ class Solution:
 
         return ans
 
+a = 'b:c'.split(':')
+print(a)
