@@ -27,5 +27,8 @@ class Solution:
 
         return ans
 
-a = 'b:c'.split(':')
+a = [1,2,3]
+b = a.copy()
+b[1] = 100
 print(a)
+print(b)
