@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="gold,20181119&#10;test if linux git can work successfully">
-      <change beforePath="" afterPath="$PROJECT_DIR$/num501_600/num551_560/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/num501_600/num551_560/num556.py" />
+    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -731,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542645000967</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="gold,20181121&#10;finish 556">
+      <created>1542807151289</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1542807151289</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -796,7 +801,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gold,20181023&#10;add 306,443,507,313,&#10;but only finish 313,507" />
     <MESSAGE value="gold,20181026&#10;add and finish 445,504" />
     <MESSAGE value="gold,20181026&#10;add and finish 450,451" />
     <MESSAGE value="gold,20181028&#10;finish 454,812" />
@@ -821,7 +825,8 @@
     <MESSAGE value="gold,20181117&#10;finish 567" />
     <MESSAGE value="gold,20181118&#10;finish 343,539" />
     <MESSAGE value="gold,20181119&#10;test if linux git can work successfully" />
-    <option name="LAST_COMMIT_MESSAGE" value="gold,20181119&#10;test if linux git can work successfully" />
+    <MESSAGE value="gold,20181121&#10;finish 556" />
+    <option name="LAST_COMMIT_MESSAGE" value="gold,20181121&#10;finish 556" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
