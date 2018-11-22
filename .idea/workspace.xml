@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="gold,20181121&#10;finish 556">
+    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/num601_700/num651_660/num658.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,11 +87,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="num556.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="num556.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num501_600/num551_560/num556.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="540">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="num658.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/num601_700/num651_660/num658.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="63" column="33" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="63" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -135,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/num501_600/num501_510/num504.py" />
         <option value="$PROJECT_DIR$/num401_500/num441_450/num445.py" />
         <option value="$PROJECT_DIR$/num401_500/num441_450/num450.py" />
         <option value="$PROJECT_DIR$/num401_500/num451_460/num451.py" />
@@ -186,6 +196,7 @@
         <option value="$PROJECT_DIR$/num601_700/num671_680/num678.py" />
         <option value="$PROJECT_DIR$/common/test.py" />
         <option value="$PROJECT_DIR$/num501_600/num551_560/num556.py" />
+        <option value="$PROJECT_DIR$/num601_700/num651_660/num658.py" />
       </list>
     </option>
   </component>
@@ -252,6 +263,12 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="num601_700" type="462c0819:PsiDirectoryNode" />
+              <item name="num651_660" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="num601_700" type="462c0819:PsiDirectoryNode" />
               <item name="num671_680" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num556">
+  <component name="RunManager" selected="Python.num658">
     <configuration name="num343" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,19 +385,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="num567" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="num658" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num501_600/num561_570" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num601_700/num651_660" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num501_600/num561_570/num567.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num601_700/num651_660/num658.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,18 +423,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.num678" />
-      <item index="1" class="java.lang.String" itemvalue="Python.num567" />
-      <item index="2" class="java.lang.String" itemvalue="Python.num343" />
-      <item index="3" class="java.lang.String" itemvalue="Python.num539" />
-      <item index="4" class="java.lang.String" itemvalue="Python.num556" />
+      <item index="1" class="java.lang.String" itemvalue="Python.num343" />
+      <item index="2" class="java.lang.String" itemvalue="Python.num539" />
+      <item index="3" class="java.lang.String" itemvalue="Python.num556" />
+      <item index="4" class="java.lang.String" itemvalue="Python.num658" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.num556" />
-        <item index="1" class="java.lang.String" itemvalue="Python.num678" />
-        <item index="2" class="java.lang.String" itemvalue="Python.num539" />
-        <item index="3" class="java.lang.String" itemvalue="Python.num343" />
-        <item index="4" class="java.lang.String" itemvalue="Python.num567" />
+        <item index="0" class="java.lang.String" itemvalue="Python.num658" />
+        <item index="1" class="java.lang.String" itemvalue="Python.num556" />
+        <item index="2" class="java.lang.String" itemvalue="Python.num678" />
+        <item index="3" class="java.lang.String" itemvalue="Python.num539" />
+        <item index="4" class="java.lang.String" itemvalue="Python.num343" />
       </list>
     </recent_temporary>
   </component>
@@ -743,7 +760,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542807178294</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="gold,20181121&#10;finish 556">
+      <created>1542807241608</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1542807241608</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -756,19 +780,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10087241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.50218105" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26304802" sideWeight="0.49345693" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.48909488" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26304802" sideWeight="0.49345693" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.49781898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.49781898" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1163,13 +1187,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/num801_900/num851_860/num852.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="55" lean-forward="false" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi" />
     <entry file="file://$PROJECT_DIR$/num401_500/num441_450/num442.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1493,8 +1510,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/num501_600/num551_560/num556.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num601_700/num651_660/num658.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="63" column="33" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="63" selection-end-column="33" />
           <folding />
         </state>
       </provider>
