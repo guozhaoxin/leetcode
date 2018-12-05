@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/num701_800/num711_720/num718.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/num201_300/num291_300/num300.py" beforeDir="false" afterPath="$PROJECT_DIR$/num201_300/num291_300/num300.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="num713.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/num701_800/num711_720/num713.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="num848.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num801_900/num841_850/num848.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,17 +41,26 @@
       <file leaf-file-name="num611.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num601_700/num611_620/num611.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+            <state relative-caret-position="1520">
+              <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="num718.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="num718.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num701_800/num711_720/num718.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="462">
+              <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="num300.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/num201_300/num291_300/num300.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="129" lean-forward="true" selection-start-line="84" selection-end-line="129" />
             </state>
           </provider>
         </entry>
@@ -105,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/num901_1000/num921_930/num930.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -159,7 +159,6 @@
         <option value="$PROJECT_DIR$/num801_900/num881_890/num889.py" />
         <option value="$PROJECT_DIR$/num501_600/num511_520/num520.py" />
         <option value="$PROJECT_DIR$/num301_400/num351_360/num357.py" />
-        <option value="$PROJECT_DIR$/num201_300/num291_300/num300.py" />
         <option value="$PROJECT_DIR$/common/__init__.py" />
         <option value="$PROJECT_DIR$/common/arrayhandle.py" />
         <option value="$PROJECT_DIR$/common/tree.py" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/num301_400/num301_310/num306.py" />
         <option value="$PROJECT_DIR$/num301_400/num331_340/num337.py" />
         <option value="$PROJECT_DIR$/num701_800/num711_720/num718.py" />
+        <option value="$PROJECT_DIR$/num201_300/num291_300/num300.py" />
       </list>
     </option>
   </component>
@@ -227,19 +227,13 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="num301_400" type="462c0819:PsiDirectoryNode" />
+              <item name="num201_300" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="num301_400" type="462c0819:PsiDirectoryNode" />
-              <item name="num301_310" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="num301_400" type="462c0819:PsiDirectoryNode" />
-              <item name="num331_340" type="462c0819:PsiDirectoryNode" />
+              <item name="num201_300" type="462c0819:PsiDirectoryNode" />
+              <item name="num291_300" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +324,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num718">
+  <component name="RunManager" selected="Python.num300">
+    <configuration name="num300" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num201_300/num291_300" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num201_300/num291_300/num300.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="num306" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -362,24 +374,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num301_400/num331_340/num337.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="num392" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/num301_400/num391_400" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/num301_400/num391_400/num392.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -423,18 +417,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.num611" />
-      <item itemvalue="Python.num392" />
       <item itemvalue="Python.num337" />
       <item itemvalue="Python.num306" />
       <item itemvalue="Python.num718" />
+      <item itemvalue="Python.num300" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.num300" />
         <item itemvalue="Python.num718" />
         <item itemvalue="Python.num611" />
         <item itemvalue="Python.num337" />
         <item itemvalue="Python.num306" />
-        <item itemvalue="Python.num392" />
       </list>
     </recent_temporary>
   </component>
@@ -448,13 +442,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532844087401</updated>
-    </task>
-    <task id="LOCAL-00003" summary="where is the problem?">
-      <created>1539613227268</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1539613227268</updated>
     </task>
     <task id="LOCAL-00004" summary="where is the problem?">
       <created>1539613471658</created>
@@ -792,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543746893213</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="gold,20181203&#10;finish 718">
+      <created>1543820897540</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1543820897540</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -806,13 +800,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="1040" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22416534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22337043" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50218105" side_tool="true" weight="0.39979124" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32908162" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.48909488" visible="true" weight="0.7246696" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49345693" weight="0.15198238" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.48909488" weight="0.72387236" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49345693" visible="true" weight="0.20044053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49781898" weight="0.32908162" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -856,7 +851,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gold,20181103&#10;finish 508,513,515,701&#10;add but not finish 287" />
     <MESSAGE value="gold,20181103&#10;finish 543,617,652" />
     <MESSAGE value="gold,20181104&#10;finish 654,872，&#10;662 timeout" />
     <MESSAGE value="gold,20181105&#10;finish 606,865" />
@@ -881,7 +875,8 @@
     <MESSAGE value="gold,20181125&#10;finish 495" />
     <MESSAGE value="gold,20181129&#10;finish 392&#10;add but not finish 930" />
     <MESSAGE value="gold,20181202&#10;finish 306,337" />
-    <option name="LAST_COMMIT_MESSAGE" value="gold,20181202&#10;finish 306,337" />
+    <MESSAGE value="gold,20181203&#10;finish 718" />
+    <option name="LAST_COMMIT_MESSAGE" value="gold,20181203&#10;finish 718" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1289,13 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/num201_300/num291_300/num300.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -1540,21 +1528,28 @@
     <entry file="file://$PROJECT_DIR$/num901_1000/num921_930/num930.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num601_700/num611_620/num611.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        <state relative-caret-position="1520">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num701_800/num711_720/num718.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="462">
+          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/num201_300/num291_300/num300.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="129" lean-forward="true" selection-start-line="84" selection-end-line="129" />
         </state>
       </provider>
     </entry>
