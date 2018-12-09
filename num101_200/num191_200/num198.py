@@ -72,10 +72,21 @@ class Solution(object):
 
         return max(res[0], res[1])
 
+class Solution1:
+    def rob(self, nums):
+        if not nums: return 0
+        if len(nums) <= 2: return max(nums)
+
+        res = [0] * len(nums)
+        res[0],res[1] = nums[0],max(nums[0],nums[1])
+        for i in range(2,len(nums)):
+            res[i] = max(res[i - 2] + nums[i],res[i - 1])
+        return res[-1]
+
 if __name__ == '__main__':
     nums = [7, 2, 1, 3, 1]
     # nums = [1,2,3,1]
     # nums = [2,3,2]
     # nums = [1,2]
-    print(nums)
     print(Solution().rob(nums))
+    print(Solution1().rob(nums))
