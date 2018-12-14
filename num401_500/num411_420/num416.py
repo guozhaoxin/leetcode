@@ -43,13 +43,45 @@ class Solution:
         nums.sort(reverse = True)
         if half < nums[0]:
             return False
+        if half == nums[0]:
+            return True
 
-        return self.__helper(nums,nums[0],1)
+        remainder = half - nums[0]
+        for index in range(1,len(nums)):
+            if remainder < nums[index]:
+                continue
+            if self.__helper(nums,remainder,index):
+                return True
 
-    def __helper(self,nums,curSum,index):
+        return False
+
+    def __helper(self,nums,remainder,index):
         if index == len(nums):
             return False
+
+        if remainder == nums[index]:
+            return True
+
+        if remainder < nums[index]:
+            return False
+
+        result = False
+        remainder -= nums[index]
+        for j in range(index + 1,len(nums)):
+            if remainder == nums[j]:
+                return True
+            if remainder < nums[j]:
+                continue
+            result = self.__helper(nums,remainder - nums[j],j + 1)
+            if result:
+                break
+
+        return result
 
 
 if __name__ == '__main__':
     print(Solution().canPartition([1, 5, 11, 5]))
+    print(Solution().canPartition([1, 2, 3, 5]))
+    print(Solution().canPartition([3,3,3,4,5]))
+    print(Solution().canPartition([1,3,4,4]))
+    print(Solution().canPartition([99,2,3,98]))
