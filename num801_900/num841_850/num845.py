@@ -35,7 +35,7 @@ Can you solve it in O(1) space?
 '''
 
 
-class Solution:
+class Solution1:
     def longestMountain(self, A):
         """
         :type A: List[int]
@@ -85,8 +85,56 @@ class Solution:
 
         return mountainLen
 
+class Solution:
+    def longestMountain(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
+
+        if len(A) < 3:
+            return 0
+
+        prev = A[0]
+        mountainLen = inc = dow = 0
+        inc = 1
+        for num in A[1:]:
+            if num > prev:
+                if not dow:
+                    inc += 1
+                    prev = num
+                else:
+                    if inc > 1 and inc + dow >= 3:
+                        mountainLen = max(mountainLen,inc + dow)
+                    inc = 2
+                    dow = 0
+                    prev = num
+            elif num == prev:
+                if inc > 1 and dow:
+                    if inc + dow >= 3:
+                        mountainLen = max(mountainLen,inc + dow)
+                inc = 1
+                dow = 0
+                prev = num
+            else:
+                if inc == 1:
+                    prev = num
+                else:
+                    dow += 1
+                    prev = num
+        if inc > 1 and dow:
+            mountainLen = max(mountainLen,inc + dow)
+        return mountainLen
+
+
 if __name__ == '__main__':
+    print(Solution1().longestMountain([2,1,4,7,3,2,5]))
     print(Solution().longestMountain([2,1,4,7,3,2,5]))
+    print(Solution1().longestMountain([2,2,2]))
     print(Solution().longestMountain([2,2,2]))
+    print(Solution1().longestMountain([0,1,2,3,4,5,4,3,2,1,0]))
     print(Solution().longestMountain([0,1,2,3,4,5,4,3,2,1,0]))
+    print(Solution1().longestMountain([9,8,7,6,5,4,3,2,1,0]))
     print(Solution().longestMountain([9,8,7,6,5,4,3,2,1,0]))
+    print(Solution().longestMountain([2,3,3,2,0,2]))
+    print(Solution1().longestMountain([2,3,3,2,0,2]))
