@@ -39,4 +39,6 @@ class Solution1:
 
 if __name__ == '__main__':
     print(Solution1().reversePairs([1,3,2,3,1]))
+    print(Solution1().reversePairs([1,3,2,3,1]))
+    print(Solution1().reversePairs([2,4,3,5,1]))
     print(Solution1().reversePairs([2,4,3,5,1]))
