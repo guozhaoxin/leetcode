@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/num601_700/num611_620/num611.py" line="72" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="gold,20181217&#10;edit 845,add a new Solution class which only uses O(1) space.">
-      <change afterPath="$PROJECT_DIR$/num401_500/num491_500/num493.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/num901_1000/num931_940/num932.py" afterDir="false" />
+    <list default="true" id="7cbbbfde-fa6f-4cda-954c-e441e81499d8" name="Default" comment="gold,20181223&#10;test if new branch can work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
@@ -29,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/num901_1000/num931_940/num932.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="684">
               <caret line="36" lean-forward="true" selection-start-line="29" selection-end-line="36" />
             </state>
           </provider>
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/num401_500/num491_500/num493.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="380">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -69,6 +67,11 @@
   <component name="Git.Settings">
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -442,14 +445,7 @@
       <option name="presentableId" value="Default" />
       <updated>1532844087401</updated>
       <workItem from="1545034672096" duration="5491000" />
-      <workItem from="1545532175362" duration="4800000" />
-    </task>
-    <task id="LOCAL-00009" summary="gold,20181017&#10;add 467 but not solved">
-      <created>1539781004107</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1539781004107</updated>
+      <workItem from="1545532175362" duration="5510000" />
     </task>
     <task id="LOCAL-00010" summary="gold,20181017&#10;add 804">
       <created>1539781899084</created>
@@ -787,11 +783,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545048117189</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="gold,20181223&#10;finish 932,add 493 but never finish it as it's hart">
+      <created>1545537555440</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1545537555440</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10291000" />
+    <option name="totallyTimeSpent" value="11001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,15 +814,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32056195" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32056195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44699872" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.49724367" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49928367" weight="0.60791826" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.60791826" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -873,8 +876,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="gold,20181106&#10;finish 520" />
-    <MESSAGE value="gold,20181107&#10;finish 357" />
     <MESSAGE value="gold,20181108&#10;finish 863&#10;fix the bug in common.tree:&#10;1 in the 3 order functions,add a printed parameter to these functions to tell the function if print the results or not and return the list containing all the node value;&#10;2 fix the bug in the arrayToTree function, as the function couldn't identify if the array is a valid list or not." />
     <MESSAGE value="gold,20181109&#10;finish 671" />
     <MESSAGE value="gold,20181111&#10;finish 834,but never understand the code(copy the best solution)" />
@@ -898,7 +899,9 @@
     <MESSAGE value="gold,20181216&#10;finish 396" />
     <MESSAGE value="gold,20181217&#10;finish 845" />
     <MESSAGE value="gold,20181217&#10;edit 845,add a new Solution class which only uses O(1) space." />
-    <option name="LAST_COMMIT_MESSAGE" value="gold,20181217&#10;edit 845,add a new Solution class which only uses O(1) space." />
+    <MESSAGE value="gold,20181223&#10;finish 932,add 493 but never finish it as it's hart" />
+    <MESSAGE value="gold,20181223&#10;test if new branch can work" />
+    <option name="LAST_COMMIT_MESSAGE" value="gold,20181223&#10;test if new branch can work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1579,15 +1582,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/num901_1000/num931_940/num932.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="684">
           <caret line="36" lean-forward="true" selection-start-line="29" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/num401_500/num491_500/num493.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="380">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
