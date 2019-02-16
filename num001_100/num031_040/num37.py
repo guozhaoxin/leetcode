@@ -33,7 +33,7 @@ class Solution:
         :type board: List[List[str]]
         :rtype: void Do not return anything, modify board in-place instead.
         """
-        globalDic = {}
+        # globalDic = {}
         def digui(row,col):
             if row == 9:
                 return True
@@ -62,12 +62,12 @@ class Solution:
                         return False
                     else:
                         for element in nums:
-                            globalDic[(row,col)] = element
+                            # globalDic[(row,col)] = element
                             board[row][col] = element
                             result = digui(row,col + 1)
                             if not result:
                                 board[row][col] = '.'
-                                globalDic.pop((row,col))
+                                # globalDic.pop((row,col))
                             else:
                                 return True
                 else:
